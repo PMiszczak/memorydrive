@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+    color: #1A191A;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+    color: #1A191A;
+}
+
+.alert {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+    z-index: 90;
+}
+
+/* Loader */
+#loader {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #F5F5F5;
+
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+}
+
+.spinner-border {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    margin: 0 auto;
+}
+/* End of loader */
+
+/* Navbar */
+.bg-color {
+    background-color: #FFFFFF;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(26, 25, 26, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-nav > li > a {
+    line-height: 50px;
+}
+
+.nav-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+    padding-right: 2vw !important;
+    padding-left: 2vw !important;
+
+    -webkit-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+    text-align: center;
+
+    color: #1A191A;
+}
+
+.nav-link > .material-icons {
+    font-size: 2em;
+
+    vertical-align: middle;
+
+    color: #1A191A;
+}
+
+.nav-link:hover {
+    color: #4C5C6A;
+}
+/* End of navbar */
+
+/* Buttons */
+.container > .row > .col-md-3 > a {
+    width: 100%;
+
+    text-decoration: none;
+}
+
+.container > .row > .col-md-3 > a > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    height: 20vh;
+
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.container > .row > .col-md-3 > a > div:active {
+    color: #FFFFFF;
+}
+
+
+[class*="btn-"] {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+    color: #FFFFFF;
+}
+
+[class*="btn-"]:hover {
+    color: #FFFFFF;
+}
+
+[class*="btn-"] > .material-icons {
+    font-size: 3em;
+
+    vertical-align: middle;
+
+    color: #FFFFFF;
+}
+
+.row > .col-md-6 > a {
+    width: 100%;
+
+    text-decoration: none;
+}
+
+.row > .col-md-6 > a > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    height: 20vh;
+
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.row > .col-md-6 > a > div:active {
+    color: #FFFFFF;
+}
+
+.row > .col-md-12 > a {
+    width: 100%;
+
+    text-decoration: none;
+}
+
+.row > .col-md-12 > a > div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+        flex-direction: column;
+
+    height: 20vh;
+
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.row > .col-md-12 > a > div:active {
+    color: #FFFFFF;
+}
+
+.modal-body {
+    text-align: left;
+}
+
+.modal-body > button > .material-icons {
+    font-size: 1em !important;
+
+    vertical-align: middle;
+
+    color: #FFFFFF;
+}
+/* End of buttons */
+
+/* Modals */
+.modal-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.custom-file > label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+
+    content: "Wybierz" !important;
+}
+
+.modal-footer > input:active {
+    color: #FFFFFF !important;
+}
+/* End of modals */
+
+/* Footer */
+.footer {
+    background-color: #FFFFFF;
+}
+
+.footer > .container > span > .material-icons {
+    vertical-align: middle;
+}
+
+.footer > .container > span > a {
+    text-decoration: none;
+}
+/* End of footer */
