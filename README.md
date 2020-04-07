@@ -1,6 +1,8 @@
 # Memory Drive
 
-![Memory Drive](https://i.imgur.com/kgdNyiR.png) 
+<div align="center">
+	<img src="https://i.imgur.com/kgdNyiR.png" alt="Memory Drive" width="300">
+</div>
 
 <hr>
 
