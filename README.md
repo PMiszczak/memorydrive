@@ -6,7 +6,7 @@
 
 <hr>
 
-Memory Drive” jest projektem przygotowywanym przez Pawła Miszczaka na potrzeby szkół publicznych.
+„Memory Drive” jest projektem przygotowywanym przez Pawła Miszczaka na potrzeby szkół publicznych.
 
 <br>
 <div align="center">
