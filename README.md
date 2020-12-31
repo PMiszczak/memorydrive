@@ -10,7 +10,7 @@
 
 <br>
 <div align="center">
-	<img src="https://img.shields.io/badge/Wersja-1.1.0-blue?style=for-the-badge&logo=Git&logoColor=white" alt="Wersja 1.0.0">
+	<img src="https://img.shields.io/badge/Wersja-1.1.0-blue?style=for-the-badge&logo=Git&logoColor=white" alt="Wersja 1.1.0">
 </div>
 <br>
 
@@ -22,15 +22,15 @@
 
 Po wejściu na stronę internetową z aplikacją „Memory Drive” pojawia się dla użytkownika formularz logowania. W tej aplikacji nie ma możliwości samodzielnego zarejestrowania się użytkowników, ponieważ konta generuje administrator. Po zalogowaniu się zostaniemy przekierowani odpowiednio do panelu ucznia lub administratora.
 
-<hr> 
+<hr>
 
 Po zalogowaniu się do **panelu ucznia** na ekranie pojawiają się kafelki podzielone na 3 sekcje. W każdej sekcji po kliknięciu danego kafelka otworzy się okno z odpowiednią funkcją. Na każdy kafelek jest nałożona ikona informującą o jego zastosowaniu.  
 
-Każda z 3 sekcji odpowiada za inną funkcję. Jest sekcję odpowiadającą za wgrywanie plików na serwer, sprawdzanie i pobieranie plików, a także sekcja odpowiadającą za zmianę nazwy i hasła. W oknach funkcji u góry mamy tytuł funkcji oraz opis tekstowy zastosowania danej funkcji. 
+Każda z 3 sekcji odpowiada za inną funkcję. Jest sekcję odpowiadającą za wgrywanie plików na serwer, sprawdzanie i pobieranie plików, a także sekcja odpowiadającą za zmianę nazwy i hasła. W oknach funkcji u góry mamy tytuł funkcji oraz opis tekstowy zastosowania danej funkcji.
 
 Uczeń może wgrywać na serwer:
 
--   zdjęcia (w formacie JPG, JPEG, PNG lub GIF), 
+-   zdjęcia (w formacie JPG, JPEG, PNG lub GIF),
 -   prezentacje (w formacie PPTX, PPT lub KEY),
 -   arkusze kalkulacyjne (w formacie XLS, XLSX, XLSM, XLSB lub NUMBERS),
 -   tekst (w formacie TXT, DOCX, DOC, PDF lub PAGES),
@@ -70,14 +70,14 @@ Front-end aplikacji „Memory Drive” wykonany został w dużej mierze na frame
 
 # Serwer
 
-Serwer, na którym aplikacja była pierwotnie postawiona, był serwerem postawionym na Ubuntu 18.04 Server (w wersji 64-bitowej). Aplikacja jest niewymagająca i serwer, który zupełnie wystarczał do utrzymania aplikacji, miał następujące parametry: 
+Serwer, na którym aplikacja była pierwotnie postawiona, był serwerem postawionym na Ubuntu 18.04 Server (w wersji 64-bitowej). Aplikacja jest niewymagająca i serwer, który zupełnie wystarczał do utrzymania aplikacji, miał następujące parametry:
 
 -   1 vCore,
 -   2 GHz,
 -   2 GB RAM,
 -   20 GB SSD.
 
-Aby aplikacja działała na serwerze, musiał zostać zainstalowany pakiet [LAMP](https://pl.wikipedia.org/wiki/LAMP). 
+Aby aplikacja działała na serwerze, musiał zostać zainstalowany pakiet [LAMP](https://pl.wikipedia.org/wiki/LAMP).
 
 # Back-end
 
@@ -107,9 +107,9 @@ Reszta skryptów zawarta jest w sekcji body strony.
 
 Dodawanie plików odbywa się poprzez zewnętrzne skrypty nazwane:
 
--   upload_image.php, 
--   upload_presentation_and_spreadsheet.php, 
--   upload_text.php, 
+-   upload_image.php,
+-   upload_presentation_and_spreadsheet.php,
+-   upload_text.php,
 -   upload_code.php.
 
 W tych skryptach następuje walidacja plików, która opera się o testy. Jeżeli plik nie przejdzie danego testu, zmienna walidacyjna jest zmieniana na 0 lub false a tym samym cała waldacja kończy się niepowodzeniem.
@@ -136,7 +136,7 @@ Generowanie losowych nazw uczniów wykonywane jest poprzez pobieranie losowych s
 -   [ ] Plik instalacyjny,
 -   [ ] Tłumaczenie na język angielski,
 -   [ ] Ulepszenie preloadera,
--   [ ] Dodanie powiadomienia o wylogowaniu, 
+-   [ ] Dodanie powiadomienia o wylogowaniu,
 -   [ ] Kontrola bezpieczeństwa.
 
 # Licencja
