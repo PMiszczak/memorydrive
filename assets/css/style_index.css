@@ -25,6 +25,7 @@ p {
 }
 
 /* Loader */
+
 #loader {
     position: fixed;
     z-index: 100;
@@ -51,9 +52,11 @@ p {
 
     margin: 0 auto;
 }
+
 /* End of loader */
 
 /* Login form */
+
 .form-signin {
     position: absolute;
     top: 50%;
@@ -113,4 +116,5 @@ p {
 .form-signin > button:hover {
     /*background-color: #124281;*/
 }
+
 /* End of login form */

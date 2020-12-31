@@ -28,6 +28,7 @@ h3 {
 }
 
 /* Loader */
+
 #loader {
     position: fixed;
     z-index: 100;
@@ -54,9 +55,11 @@ h3 {
 
     margin: 0 auto;
 }
+
 /* End of loader */
 
 /* Navbar */
+
 .bg-color {
     background-color: #FFFFFF;
 }
@@ -95,9 +98,11 @@ h3 {
 .nav-link:hover {
     color: #4C5C6A;
 }
+
 /* End of navbar */
 
 /* Buttons */
+
 .container > .row > .col-md-3 > a {
     width: 100%;
 
@@ -207,9 +212,11 @@ h3 {
 
     color: #FFFFFF;
 }
+
 /* End of buttons */
 
 /* Modals */
+
 .modal-title {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -230,9 +237,11 @@ h3 {
 .modal-footer > input:active {
     color: #FFFFFF !important;
 }
+
 /* End of modals */
 
 /* Footer */
+
 .footer {
     background-color: #FFFFFF;
 }
@@ -244,4 +253,5 @@ h3 {
 .footer > .container > span > a {
     text-decoration: none;
 }
+
 /* End of footer */
